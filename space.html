@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>National 5 Physics</title>
+
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="styles/home-styles/banner.css">
+        <link rel="stylesheet" href="styles/general/header.css">
+        <link rel="stylesheet" href="styles/dynamics/dynamics.css">
+    </head>
+
+    <body>
+
+        <div class="header">
+            <a class="header-links" href="index.html">Home</a>
+            <a class="header-links" href="index.html#topic-info-title">Topics</a>
+            <a class="header-links" href="index.html#resources-title">Resources</a>
+            <a class="header-links" href="index.html#past-papers-title">Past Papers</a>
+            <a class="header-links" href="index.html#support-title">Support Me</a>
+        </div>
+        
+        <!-- Banner Section -->
+        <div class="banner-container">
+            <img class="dynamics-banner-image" src="images/space-banner.jpg">
+        </div>
+
+        <div class="banner-items-container">
+            <p class="glow-text">Space</p>
+        </div>
+
+        <div class="content-container">
+            <hr class="break">
+            <p class="course-content-title">Course Content</p>
+            
+            <div class="list-container">
+                <ul class="content-list">
+                    <li>Space Exploration</li>
+                    <li>Cosmology</li>
+                </ul>
+            </div>
+
+            <hr class="break">
+
+            <p class="course-content-title">Formula Sheet</p>
+            <p class="information"> <a class="resources-link" href="past-papers/RelSheet.pdf" target="_blank">Formula Sheet</a>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 1</p>
+                <p class="question-text">A student makes the following statements about the Universe.</p>
+                
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/space/Q1.jpg">
+                </div>
+
+                <div class="answer-button-container">
+                    <a href="#question-1"><button onClick="showAnswer1(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-1" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">The best way to go about multiple choice questions is to rule options out.</p>
+
+                    <p class="question-text"><strong>The first statement is correct.</strong><br>The Big Bang theory is an effort to explain what happened at the start of the Universe.</p>
+                    <p class="question-text"><strong>The second statement is not correct</strong>. <br> The Universe is approximately 14 <strong>billion</strong> years old.</p>
+                    <p class="question-text"><strong>The third statement is correct</strong>. <br> The Universe is expanding.</p>
+
+
+                    <p class="answer-text">So the answer is D</p>
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 2</p>
+                <p class="question-text">A satellite is in a circular orbit around a planet.</p>
+                
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/space/Q2-image.jpg">
+                </div>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/space/Q2.jpg">
+                </div>
+
+                <div class="answer-button-container">
+                    <a href="#question-2"><button onClick="showAnswer2(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-2" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">To excel in the Space section of the exam, you should refer to the course specification and ensure you know all the definitions. </p>
+                    <p class="question-text"><strong>The first statement is not correct.</strong><br>The greater the altitude of a satellite, the greater its orbital period.</p>
+                    <p class="question-text"><strong>The second statement is correct.</strong><br>The satellite is a projectile, and with any projectile, the vertical acceleration is constant.</p>
+                    <p class="question-text"><strong>The third statement is not correct.</strong><br>In orbit, the satellite is constantly falling toward the planet due to gravity, but its sideways motion keeps it moving around the planet, keeping it at the same height due to the curvature of the planet.<br> This means its vertical velocity stays balanced and doesn't increase.</p>
+                    
+                    <p class="answer-text">So the answer is B</p>
+            
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 3</p>
+                <p class="question-text">The star Wolf 359 is at a distance of 7.8 light-years from Earth.</p>
+                <p class="question-text">Calculate the distance, in metres, from Wolf 359 to Earth.</p>
+
+                <div class="answer-button-container">
+                    <a href="#question-3"><button onClick="showAnswer3(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-3" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">1 light-year is the distance light travels in one year. <br> We can work this out by calculating how many seconds are in a year and multiplying this by the speed of light.</p>
+                    <p class="question-text">To calculate the distance of 7.8 light-years, we simple calculate how many seconds are in 7.8 years.</p>
+                    <p class="question-text">We use:</p>
+                    <p class="question-text">d = vt</p>
+                    <p class="question-text">d = 3 x 10<sup>8</sup> x (60 x 60 x 24 x 365.25 x 7.8)</p>
+                    <p class="question-text">Just a reminder that its 60 seconds times 60 minutes etc. <br>Also, when doing these calculations we tend to use 365.25 days,<br> as this is the true number of days in a year! </p>
+
+                    <p class="answer-text">So d = 7.4 x 10<sup>16</sup> m</p>
+                
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 4</p>
+                <p class="question-text">Define the term <em>galaxy</em>.</p>
+
+                <div class="answer-button-container">
+                    <a href="#question-4"><button onClick="showAnswer4(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-4" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">With the space topic, its best you learn the definitons of all the space terms <br> e.g. stars, planets, moons etc.</p>
+
+                    <p class="answer-text">A galaxy is a collection of gas, dust and billions of stars.</p>
+                
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 5</p>
+                <p class="question-text">Far out in space, the rocket engine of a space probe is switched on for a short time causing it to accelerate.</p>
+                <p class="question-text">When the engine is then switched off, the probe will</p>
+                
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/space/Q5.jpg">
+                </div>
+
+                <div class="answer-button-container">
+                    <a href="#question-5"><button onClick="showAnswer5(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-5" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">We should be thinking of the forces acting on the space probe.</p>
+                    <p class="question-text">When the engine is switched off, there will be no longer be a thrust force acting on the space probe.<br> And since we are in space, there is no air resistance acting on the space probe.</p>
+                    <p class="question-text">Therefore, there is <strong>balanced forces</strong>. </p>
+                
+                    <p class="answer-text">So the answer is D</p>
+
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 6</p>
+                <p class="question-text">A balloon of mass 400kg rises vertically from the ground.</p>
+                
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/dynamics/Q6.jpg">
+                </div>
+
+                <p class="question-text">The graph shows how the vertical speed of the ballon changes during the first 100s of its upward flight.</p>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/dynamics/Q6-graph.jpg">
+                </div>
+
+                <p class="question-text">(a) Calculate the acceleration of the balloon during the first 60s.</p>
+                <p class="question-text">(b) Calculate the distance travelled by the balloon in 100s.</p>
+                <p class="question-text">(c) Calculate the average speed of the balloon during the first 100s.</p>
+                <p class="question-text">(d) Calculate the weight of the balloon.</p>
+                <p class="question-text">(e) Calculate the total upward force acting on the balloon during the first 60s of its flight.</p>
+
+                <div class="answer-button-container">
+                    <a href="#question-6"><button onClick="showAnswer6(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-6" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">(a) To get the acceleration, we use:</p>
+
+                    <div class="frac-position">
+                        <p>a = &nbsp;<span class="frac"><sup>v - u</sup><span>&frasl;</span><sub>t</sub></span></p>
+                    </div>
+
+                    <p class="question-text">Where v is the final vertical speed, u is the inital vertical velocity and t is the time. <br> Subbing in our values:</p>
+
+                    <div class="frac-position">
+                        <p>a = &nbsp;<span class="frac"><sup>6 - 0</sup><span>&frasl;</span><sub>60</sub></span></p>
+                    </div>
+
+                    <p class="answer-text">a = 0.1ms<sup>-2</sup></p>
+
+                    <p class="question-text">(b) To get the distance travelled, we need to calculate the area under the graph. <br> We need to split the graph into two separate areas:</p>
+
+                    <p class="question-text">d = area under speed time graph:</p>
+                    <p class="question-text">d = (0.5 x 60 x 6) + (40 x 6)</p>
+                    <p class="answer-text">d = 420m</p>
+
+                    <p class="question-text">(c) Simply just use the speed formula:</p>
+
+                    <div class="frac-position">
+                        <p>v = &nbsp;<span class="frac"><sup>d</sup><span>&frasl;</span><sub>t</sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>a = &nbsp;<span class="frac"><sup>420</sup><span>&frasl;</span><sub>100</sub></span></p>
+                    </div>
+
+                    <p class="answer-text">v = 4.2ms<sup>-1</sup></p>
+
+                    <p class="question-text">(d) Simply just use the weight formula:</p>
+
+                    <p class="question-text">w = mg</p>
+                    <p class="question-text">w = 400 x 9.8</p>
+
+                    <p class="answer-text">w = 3920N</p>
+
+                    <p class="question-text">(e) The best way to go about this question is to draw a freebody diagram to get a sense of what is actually happening:</p>
+
+                    <div class="question-image-container">
+                        <img class="question-image" src="images/questions/dynamics/Q6-freebody.jpg">
+                    </div>
+
+                    <p class="question-text">For the balloon to accelerate upwards, the total upward force must be <strong>greater</strong> than the size of the weight of the balloon.<br> This means that there will be an unbalanced force acting upwards, causing an the balloon to accelerate upwards.</p>
+                    <p class="question-text">To calculate the size of the unbalanced force, we use:</p>
+                    <p class="question-text">F<sub>UN</sub> = ma</p>
+                    <p class="question-text">F<sub>UN</sub> = 400 x 0.1</p>
+                    <p class="question-text">F<sub>UN</sub> = 40N</p>
+                    <p class="question-text">Now, we add the unbalanced force to the weight to get the total upward force.</p>
+                    <p class="question-text">Total upward force = F<sub>UN</sub> + Weight </p>
+                    <p class="question-text">Total upward force = 40 + 3920 </p>
+                    <p class="answer-text">Total upward force = 3960N</p>
+
+                
+                </section>
+            </div>
+
+            
+
+
+        </div>
+
+        
+
+        <script>
+
+            function change(button) {
+                if (button.innerText === "Show Answer") {
+                    button.innerText = "Hide Answer";
+                } else {
+                    button.innerText = "Show Answer";
+                }
+            }
+
+
+            const showAnswer1 = () => {
+                document.getElementById("question-1").classList.toggle('hidden');
+            }
+
+            const showAnswer2 = () => {
+                document.getElementById("question-2").classList.toggle('hidden');
+            }
+
+            const showAnswer3 = () => {
+                document.getElementById("question-3").classList.toggle('hidden');
+            }
+
+            const showAnswer4 = () => {
+                document.getElementById("question-4").classList.toggle('hidden');
+            }
+
+            const showAnswer5 = () => {
+                document.getElementById("question-5").classList.toggle('hidden');
+            }
+
+            const showAnswer6 = () => {
+                document.getElementById("question-6").classList.toggle('hidden');
+            }
+
+        </script>
+        
+
+    </body>
+</html>

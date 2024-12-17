@@ -1,0 +1,203 @@
+.welcome-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-image{
+    width: 300px;
+    object-fit: cover;
+}
+
+.info-container{
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.break{
+    border-color:rgb(177, 173, 172);
+    border-style: solid;
+    width: 90%;
+  }
+
+.information{
+    color: white;
+    text-align: center;
+    font-family: "Nunito", arial;
+    font-size: 18px;
+}
+
+#welcome-title,
+#marking-title,
+#about-title,
+#support-title,
+#past-papers-title,
+#resources-title,
+#topic-info-title{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Raleway", arial;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.topics-container{
+    padding-top: 20px;
+    background-color: #000000;
+}
+
+.topics-title{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Raleway", arial;
+    margin-bottom: 40px;
+}
+
+.content-grid{
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.content-container{
+    position: relative;
+    height: 390px;
+    min-width: 323px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 99;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.thumbnail{
+    object-fit: cover;
+    width: 100%;
+    height: 390px;
+    filter: brightness(70%);
+    border-radius: 20px;
+}
+
+.button-87 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100; /* Ensure it stays above the image */
+    padding: 20px 30px;
+    font-family: "Raleway", arial;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #000000;
+    background-image: linear-gradient(45deg, #696666 0%, #000000  51%, #656262  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.about-me-title{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: "Bodoni Moda", arial;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+strong{
+    font-size: 25px;
+    font-family: "Bodoni Moda", arial;
+}
+
+.button-87:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-87:active {
+    transform: scale(0.95);
+}
+
+.resources-link{
+    color: white;
+    }
+    
+.resources-link:visited{
+    color: white;
+    }
+
+.rocket-image{
+    object-fit: cover;
+    width: 100%;
+    height: 390px;
+    border-radius: 20px;
+}
+
+.tips-image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 390px;
+    max-width: 500px;
+    border-radius: 8px;
+    margin: 0 auto; 
+    padding: 10px;
+}
+
+
+/* Medium Devices (Ipad) */
+@media(min-width: 720px) and (max-width: 1100px){
+    
+    .content-grid{
+        margin-top: 16px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
+        row-gap: 20px;
+        padding: 20px;
+    }
+
+    .info-container{
+        padding: 10px;
+    }
+}
+
+/* Small Devices (Mobile Phones) */
+@media (max-width: 719px) {
+
+    .content-grid{
+        margin-top: 14px;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 50px;
+        row-gap: 20px;
+        padding: 20px;
+    }
+
+    .topic-info-title{
+        font-size: 50px;
+    }
+
+    .info-container{
+        padding: 10px;
+    }
+
+        
+    }

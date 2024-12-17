@@ -1,0 +1,64 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    padding-top: 10px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    height: 50px;
+    background-color: black;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 255, 255, 0.2) ;
+}
+
+
+.header-links {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: rgb(158, 158, 158);
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 2px; /* Adds space between text and underline */
+    display: inline-block;
+    transition: color 0.25s ;
+}
+
+.header-links:hover {
+    color: rgb(255, 255, 255);
+}
+
+.header-links::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0; /* Start with no width */
+    height: 1.5px; /* Thickness of the underline */
+    background-color: rgb(255, 255, 255); /* Color of the underline */
+    transform: translateX(-50%); /* Center the underline */
+    transition: width 0.2s ease; /* Animate only the width for smoother transition */
+}
+
+.header-links:hover::after {
+    width: 100%; /* Expand underline to full width */
+}
+
+/* Small Devices (Mobile Phones) */
+@media (max-width: 650px) {
+
+    .header-links {
+        font-size: 14px;
+    }
+
+    .header{
+        padding: 15px;
+    }
+        
+    }
