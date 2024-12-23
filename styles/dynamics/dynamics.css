@@ -1,3 +1,13 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 .dynamics-banner-image{
     filter: brightness(70%);
     width: 100%;
@@ -174,6 +184,16 @@ span.frac {
   }
   span.frac > sup {border-bottom: 0.08em solid;}
   span.frac > span {display: none;}
+
+/* Scroll Stuff */
+
+.scroll-down .header {
+    transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up .header {
+    filter: drop-shadow(0 -5px 10px rgb(170, 170, 170));
+}
 
 /* Small Devices (Mobile Phones) */
 @media (max-width: 650px) {
