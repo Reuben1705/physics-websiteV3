@@ -410,6 +410,30 @@
             }
 
         </script>
+
+            <script>
+        const body = document.body;
+        let lastScroll = 0;
+        const scrollOffset = 100;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > scrollOffset) {
+                if (currentScroll > lastScroll && !body.classList.contains("scroll-down")) {
+                    body.classList.remove("scroll-up");
+                    body.classList.add("scroll-down");
+                } else if (currentScroll < lastScroll && body.classList.contains("scroll-down")) {
+                    body.classList.remove("scroll-down");
+                    body.classList.add("scroll-up");
+                }
+            } else {
+                body.classList.remove("scroll-up", "scroll-down");
+            }
+
+            lastScroll = currentScroll; 
+        });
+    </script>
         
 
     </body>
