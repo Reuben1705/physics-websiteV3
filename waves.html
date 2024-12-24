@@ -6,7 +6,6 @@
         <title>National 5 Physics</title>
 
         <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
-        <link rel="icon" href="images/favicon.ico.png">
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,15 +63,13 @@
             
             <div class="question-container">
                 <p class="question-title">Example 1</p>
-                <p class="question-text">A trolley is positioned 2·0m from a light gate which is connected to a timer as shown.</p>
+                <p class="question-text">A student makes the following statements about different types of electromagnetic wave:.</p>
                 
                 <div class="question-image-container">
-                    <img class="question-image" src="images/questions/dynamics/Q1.jpg">
+                    <img class="question-image" src="images/questions/waves/Q1.jpg">
                 </div>
 
-                <p class="question-text">The trolley is released from rest and takes 5·0s to reach the light gate.</p>
-                <p class="question-text">The time taken for the card on the trolley to pass through the light gate is 0·050s.</p>
-                <p class="question-text">What is the average speed of the trolley between X and Y?</p>
+                <p class="question-text">Which of these statements is/are correct?</p>
 
                 <div class="answer-button-container">
                     <a href="#question-1"><button onClick="showAnswer1(), change(this)" id="answer-button">Show Answer</button></a>
@@ -80,17 +77,19 @@
 
                 <section id="question-1" class="hidden">
                     <hr class="break">
-                    <p class="question-text">In this question, we are given a lot of information. <br> It is important that we acknowledge what the question is actually asking. <br> We are asked for the average speed <strong>between X and Y.</strong> <br> With this in mind, we can use:</p>
+                    <p class="question-text">Lets rule out every option:</p>
 
-                    <div class="frac-position">
-                        <p>v = &nbsp;<span class="frac"><sup> d</sup><span>&frasl;</span><sub>t</sub></span></p>
+                    <p class="question-text"><strong>The first statement is correct</strong><br>All light waves are transverse waves. </p>
+                    <p class="question-text"><strong>The second statement is not correct</strong><br>Radio waves are light waves, and all light waves travel at the 3 x 10<sup>8</sup> ms<sup>-1</sup><br>The speed in the statement is actually the speed of sound.</p>
+                    <p class="question-text"><strong>The third statement is not correct</strong><br>You need to remember the electromagnetic spectrum and their wavelengths/frequencies:</p>
+
+                    <div class="question-image-container">
+                        <img class="question-image" src="images/questions/waves/EMspectrum.jpg">
                     </div>
 
-                    <div class="frac-position">
-                        <p>v = &nbsp;<span class="frac"><sup> 2</sup><span>&frasl;</span><sub>5</sub></span></p>
-                    </div>
+                    <p class="question-text">As you can see, Ultraviolet has a lower wavelength than Infrared, So:</p>
 
-                    <p class="answer-text">v = 0.4ms<sup>-1</sup></p>
+                    <p class="answer-text">The correct statement is A</p>
                 </section>
             </div>
 
@@ -98,16 +97,17 @@
             
             <div class="question-container">
                 <p class="question-title">Example 2</p>
-                <p class="question-text">A stone is projected horizontally from a cliff.</p>
+                <p class="question-text">A ray of light is reflected by a mirror.</p>
                 
                 <div class="question-image-container">
-                    <img class="question-image" src="images/questions/dynamics/Q2.jpg">
+                    <img class="question-image" src="images/questions/waves/Q2.jpg">
                 </div>
 
-                <p class="question-text">The initial speed of the stone is 20ms<sup>-1</sup></p>
-                <p class="question-text">The stone hits the ground at X, 3·0s after being projected.</p>
-                <p class="question-text">The effect of air resistance can be ignored.</p>
-                <p class="question-text">What is the horizonal speed and the vertical speed of the stone just before it hits the ground at X?</p>
+                <p class="question-text">Which row in the table shows the angle of incidence, the angle of reflection and the normal?</p>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/waves/Q2table.jpg">
+                </div>
 
                 <div class="answer-button-container">
                     <a href="#question-2"><button onClick="showAnswer2(), change(this)" id="answer-button">Show Answer</button></a>
@@ -115,18 +115,10 @@
 
                 <section id="question-2" class="hidden">
                     <hr class="break">
-                    <p class="question-text">You should know that the horizontal speed of the stone does not change; it is equal to the inital speed of 20ms<sup>-1</sup>.</p>
-                    <p class="question-text">To work out the vertical speed of the stone, we need to list our data: <br><br> initial vertical speed(u) = 0ms<sup>-1</sup> <br> acceleration(a) = 9.8ms<sup>-2</sup><br> final vertical speed(v) = ?</p>
-                    <p class="question-text">Now, we can use:</p>
-                    
-                    <div class="frac-position">
-                        <p>a = &nbsp;<span class="frac"><sup>v - u</sup><span>&frasl;</span><sub>t</sub></span></p>
-                    </div>
+                    <p class="question-text">The Normal is represented using a dashed line and is perpendicular to the object. This is Z</p>
+                    <p class="question-text">Remember that angles are always measured from the ray of light to the normal, so we can discard P and S. This leaves us with:</p>
 
-                    <p class="question-text">v = at</p>
-                    <p class="question-text">v = 9.8 x 3</p>
-                    <p class="question-text">v = 29.4ms<sup>-1</sup></p>
-                    <p class="answer-text">So <br> horizonal speed = 20ms<sup>-1</sup><br> vertical speed = 29.4ms<sup>-1</sup></p>
+                    <p class="answer-text">Row B</p>
             
                 </section>
             </div>
@@ -135,14 +127,29 @@
             
             <div class="question-container">
                 <p class="question-title">Example 3</p>
-                <p class="question-text">A diagram of a slide is shown below.</p>
+                <p class="question-text">The diagrams show a light ray passing through a semi-circular glass block.</p>
+                <p class="question-text">In each case one angle has been marked.</p>
+                <p class="question-text">In which diagram is the critical angle marked?</p>
                 
                 <div class="question-image-container">
-                    <img class="question-image" src="images/questions/dynamics/Q3.jpg">
+                    <img class="question-image" src="images/questions/waves/Q3-1.jpg">
                 </div>
 
-                <p class="question-text">A child of weight 250N slides from the top to the bottom.</p>
-                <p class="question-text">What is the change in gravitational potential energy of the child?</p>
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/waves/Q3-2.jpg">
+                </div>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/waves/Q3-3.jpg">
+                </div>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/waves/Q3-4.jpg">
+                </div>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/waves/Q3-5.jpg">
+                </div>
 
                 <div class="answer-button-container">
                     <a href="#question-3"><button onClick="showAnswer3(), change(this)" id="answer-button">Show Answer</button></a>
@@ -150,23 +157,10 @@
 
                 <section id="question-3" class="hidden">
                     <hr class="break">
-                    <p class="question-text">First, lets identify the formula we need to use.<br> We are asked for the change in gravitational potential energy, which is effectively how much energy is lost. <br> So we can use:</p>
-                    <p class="question-text">Ep = mgh</p>
-                    <p class="question-text">Notice how we don't actually have the mass of the child, so we need to work this out using:</p>
-                    <p class="question-text">w = mg</p>
-                    <p class="question-text">Now we sub in our values and re-arrange:</p>
-                    <p class="question-text">250 = m x 9.8</p>
-
-                    <div class="frac-position">
-                        <p>m = &nbsp;<span class="frac"><sup>250</sup><span>&frasl;</span><sub>9.8</sub></span></p>
-                    </div>
-
-                    <p class="question-text">m = 25.5kg</p>
-                    <p class="question-text">Now we can calculate the change in gravitational potential energy:</p>
-                    <p class="question-text">Note that the height whenever dealing with gravitational potential energy is the <strong>vertical</strong> height:</p>
-                    <p class="question-text">Ep = 25.5 x 9.8 x 2</p>
-                    <p class="question-text">Ep = 499.8</p>
-                    <p class="answer-text">Ep = 500J</p>
+                    <p class="question-text">The critical angle is <strong>the angle of incidence that causes an angle of refraction of 90&deg;</strong></p>
+                    <p class="question-text">This means the refracted ray should leave the block parallel to the block.</p>
+                    <p class="question-text"><strong>Remember we measure angles from the ray to the normal.</strong><br>So:</p>
+                    <p class="answer-text">The correct answer is E</p>
                 
                 </section>
             </div>
@@ -175,14 +169,9 @@
             
             <div class="question-container">
                 <p class="question-title">Example 4</p>
-                <p class="question-text">The diagram shows the horizontal forces acting on a box.</p>
-                
-                <div class="question-image-container">
-                    <img class="question-image" src="images/questions/dynamics/Q4.jpg">
-                </div>
-
-                <p class="question-text">The box accelerates at 1.6ms<sup>-2</sup></p>
-                <p class="question-text">What is the mass of the box?</p>
+                <p class="question-text">There are many examples of transverse waves in our universe.</p>
+                <p class="question-text">(a) Give an example of a transverse wave.</p>
+                <p class="question-text">(b) Define <em>transverse waves</em>.</p>
 
                 <div class="answer-button-container">
                     <a href="#question-4"><button onClick="showAnswer4(), change(this)" id="answer-button">Show Answer</button></a>
@@ -190,18 +179,10 @@
 
                 <section id="question-4" class="hidden">
                     <hr class="break">
-                    <p class="question-text">First, lets calculate the unbalanced force acting on the box:</p>
-                    <p class="question-text">Unbalanced Force(F<sub>UN</sub>) = Total Force - Frictional Force</p>
-                    <p class="question-text">F<sub>UN</sub> = 20 - 4</p>
-                    <p class="question-text">F<sub>UN</sub> = 16N</p>
-                    <p class="question-text">Now that we have the unbalanced force(F<sub>UN</sub>) and the acceleration(a), we can use and re-arrange:</p>
-                    <p class="question-text">F<sub>UN</sub> = ma</p>
-                    <p class="question-text">16 = m x 1.6</p>
+                    <p class="answer-text">(a) Examples include water waves, any type of light waves e.g. microwaves</p>
                     
-                    <div class="frac-position">
-                        <p>m = &nbsp;<span class="frac"><sup>16</sup><span>&frasl;</span><sub>1.6</sub></span></p>
-                    </div>
-                    <p class="answer-text">m = 10kg</p>
+
+                    <p class="answer-text">(b) Transverse waves are ones is which the particles of the medium vibrate at 90&deg; to wave direction.</p>
                 
                 </section>
             </div>
@@ -210,21 +191,17 @@
             
             <div class="question-container">
                 <p class="question-title">Example 5</p>
-                <p class="question-text">An aircraft is flying horizontally at a constant speed.</p>
+                <p class="question-text">A ray of light strikes a plane mirror at an angle of 40&deg; to the mirror surface.</p>
                 
                 <div class="question-image-container">
-                    <img class="question-image" src="images/questions/dynamics/Q4a.jpg">
+                    <img class="question-image" src="images/questions/waves/Q5.jpg">
                 </div>
 
-                <p class="question-text">(a) The aircraft and passengers have a total mass of 50 000kg. Calculate the total weight.</p>
-                <p class="question-text">(b) State the magnitude of the upward force acting on the aircraft.</p>
-                <p class="question-text">(c) During the flight, the aircraft's engines produce of 4.4 x 10<sup>4</sup>N due North.<br> The aircraft encounters a crosswind, blowing from west to east, <br> which exerts a force of 3.2 x 10<sup>4</sup>N.</p>
+                <p class="question-text">Which row shows the correct values of angle of incidence and angle of reflection for this ray?</p>
 
                 <div class="question-image-container">
-                    <img class="question-image" src="images/questions/dynamics/Q4c.jpg">
+                    <img class="question-image" src="images/questions/waves/Q5table.jpg">
                 </div>
-
-                <p class="question-text">Calculate the resultant force on the aircraft.</p>
 
                 <div class="answer-button-container">
                     <a href="#question-5"><button onClick="showAnswer5(), change(this)" id="answer-button">Show Answer</button></a>
@@ -232,48 +209,14 @@
 
                 <section id="question-5" class="hidden">
                     <hr class="break">
-                    <p class="question-text">(a) A simple question, using: </p>
-                    <p class="question-text">w = mg</p>
-                    <p class="question-text">w = 50 000 x 9.8</p>
-                    <p class="answer-text">w = 490 000N</p>
-
-                    <p class="question-text">(b) The trick to this question is in the wording, where it says <strong>"State"</strong>.<br> This usually means no calculations need to be done.<br> Since the plane is flying horizontally at a constant height:</p>
-                    <p class="answer-text">Upward Force = 490 000N</p>
-
-                    <p class="question-text">(c) We always need a diagram for calculating resultant force.<br> Remember to draw vectors <strong>tip to tail</strong>:</p>
+                    <p class="question-text"> Lets draw in our normal and calculate our angles</p>
+                    <p class="question-text"> Remember the Law of Reflection states that if a ray is reflected,<br> the angle of incidence is equal to the angle of reflection:</p>
 
                     <div class="question-image-container">
-                        <img class="question-image" src="images/questions/dynamics/Q4-ans.jpg">
+                        <img class="question-image" src="images/questions/waves/Q5ans.JPG">
                     </div>
 
-                    <p class="question-text">Where "F" is the magnitude of the resultant force, and "x" is the direction of the resultant force. </p>
-                    <p class="question-text">Now we use pythagoras to calculate the magnitude of the resultant force:</p>
-                    <p class="question-text">F<sup> 2</sup> = (3.2 x 10<sup>4</sup>)<sup>2</sup> + (4.4 x 10<sup>4</sup>)<sup>2</sup></p>
-                    <p class="question-text">F = 5.4 x 10<sup>4</sup>N</p>
-                    <p class="question-text">Now we calculate the direction of the resultant force:</p>
-
-                    <div class="frac-position">
-                        <p>tan x  = &nbsp;<span class="frac"><sup>opp</sup><span>&frasl;</span><sub>adj</sub></span></p>
-                    </div>
-
-                    <div class="frac-position">
-                        <p>tan x  = &nbsp;<span class="frac"><sup>3.2 x 10<sup>4</sup></sup><span>&frasl;</span><sub>4.4 x 10<sup>4</sup></sub></span></p>
-                    </div>
-
-                    <div class="frac-position">
-                        <p> x  = &nbsp;tan<sup>-1</sup>( <span class="frac"><sup>3.2 x 10<sup>4</sup></sup><span>&frasl;</span><sub>4.4 x 10<sup>4</sup></sub></span> )</p>
-                    </div>
-
-                    <p class="question-text">x = 54&deg;</p>
-                    <p class="question-text">We need the direction as a bearing, so we draw a North line on our diagram. <br> Then we subtract the angle we just calculated from 90 to get the bearing: </p>
-
-                    <div class="question-image-container">
-                        <img class="question-image" src="images/questions/dynamics/Q4-ans-annotated.JPG">
-                    </div>
-
-                    <p class="question-text">So the bearing is 036(Remember bearings are displayed with only three figures) </p>
-                    <p class="question-text">Finally, we need to state the resultant force:</p>
-                    <p class="answer-text">Resultant Force = 5.4 x 10<sup>4</sup>N at a bearing of 036</p>
+                    <p class="answer-text">So the answer is E</p>
 
                 </section>
             </div>
@@ -282,23 +225,17 @@
             
             <div class="question-container">
                 <p class="question-title">Example 6</p>
-                <p class="question-text">A balloon of mass 400kg rises vertically from the ground.</p>
+                <p class="question-text">The diagram represents a wave.</p>
                 
                 <div class="question-image-container">
-                    <img class="question-image" src="images/questions/dynamics/Q6.jpg">
+                    <img class="question-image" src="images/questions/waves/Q6.jpg">
                 </div>
 
-                <p class="question-text">The graph shows how the vertical speed of the ballon changes during the first 100s of its upward flight.</p>
+                <p class="question-text">Which row in the table shows the wavelength and amplitude of the wave?</p>
 
                 <div class="question-image-container">
-                    <img class="question-image" src="images/questions/dynamics/Q6-graph.jpg">
+                    <img class="question-image" src="images/questions/waves/Q6table.jpg">
                 </div>
-
-                <p class="question-text">(a) Calculate the acceleration of the balloon during the first 60s.</p>
-                <p class="question-text">(b) Calculate the distance travelled by the balloon in 100s.</p>
-                <p class="question-text">(c) Calculate the average speed of the balloon during the first 100s.</p>
-                <p class="question-text">(d) Calculate the weight of the balloon.</p>
-                <p class="question-text">(e) Calculate the total upward force acting on the balloon during the first 60s of its flight.</p>
 
                 <div class="answer-button-container">
                     <a href="#question-6"><button onClick="showAnswer6(), change(this)" id="answer-button">Show Answer</button></a>
@@ -306,62 +243,81 @@
 
                 <section id="question-6" class="hidden">
                     <hr class="break">
-                    <p class="question-text">(a) To get the acceleration, we use:</p>
-
-                    <div class="frac-position">
-                        <p>a = &nbsp;<span class="frac"><sup>v - u</sup><span>&frasl;</span><sub>t</sub></span></p>
-                    </div>
-
-                    <p class="question-text">Where v is the final vertical speed, u is the inital vertical velocity and t is the time. <br> Subbing in our values:</p>
-
-                    <div class="frac-position">
-                        <p>a = &nbsp;<span class="frac"><sup>6 - 0</sup><span>&frasl;</span><sub>60</sub></span></p>
-                    </div>
-
-                    <p class="answer-text">a = 0.1ms<sup>-2</sup></p>
-
-                    <p class="question-text">(b) To get the distance travelled, we need to calculate the area under the graph. <br> We need to split the graph into two separate areas:</p>
-
-                    <p class="question-text">d = area under speed time graph:</p>
-                    <p class="question-text">d = (0.5 x 60 x 6) + (40 x 6)</p>
-                    <p class="answer-text">d = 420m</p>
-
-                    <p class="question-text">(c) Simply just use the speed formula:</p>
-
-                    <div class="frac-position">
-                        <p>v = &nbsp;<span class="frac"><sup>d</sup><span>&frasl;</span><sub>t</sub></span></p>
-                    </div>
-
-                    <div class="frac-position">
-                        <p>a = &nbsp;<span class="frac"><sup>420</sup><span>&frasl;</span><sub>100</sub></span></p>
-                    </div>
-
-                    <p class="answer-text">v = 4.2ms<sup>-1</sup></p>
-
-                    <p class="question-text">(d) Simply just use the weight formula:</p>
-
-                    <p class="question-text">w = mg</p>
-                    <p class="question-text">w = 400 x 9.8</p>
-
-                    <p class="answer-text">w = 3920N</p>
-
-                    <p class="question-text">(e) The best way to go about this question is to draw a freebody diagram to get a sense of what is actually happening:</p>
+                    <p class="question-text">Remember, to calculate the wavelength, we count how many waves are in a given distance and divide the distance by the number of waves.</p>
+                    <p class="question-text">To count the number of waves, trace your finger on the wave and count how many times it repeats the same motion: </p>
 
                     <div class="question-image-container">
-                        <img class="question-image" src="images/questions/dynamics/Q6-freebody.jpg">
+                        <img class="question-image" src="images/questions/waves/Q6ans.JPG">
                     </div>
 
-                    <p class="question-text">For the balloon to accelerate upwards, the total upward force must be <strong>greater</strong> than the size of the weight of the balloon.<br> This means that there will be an unbalanced force acting upwards, causing an the balloon to accelerate upwards.</p>
-                    <p class="question-text">To calculate the size of the unbalanced force, we use:</p>
-                    <p class="question-text">F<sub>UN</sub> = ma</p>
-                    <p class="question-text">F<sub>UN</sub> = 400 x 0.1</p>
-                    <p class="question-text">F<sub>UN</sub> = 40N</p>
-                    <p class="question-text">Now, we add the unbalanced force to the weight to get the total upward force.</p>
-                    <p class="question-text">Total upward force = F<sub>UN</sub> + Weight </p>
-                    <p class="question-text">Total upward force = 40 + 3920 </p>
-                    <p class="answer-text">Total upward force = 3960N</p>
+                    <p class="question-text">Here, there are 2 waves in 12m so the wavelength is 6m.</p>
+                    <p class="question-text">Remember for the amplitude, it's the distance from the zero position to either the peak or the trough.</p>
+                    <p class="question-text">Here, its 0.2m from the bottom of the wave(trough) to the top of the wave(peak), <br>So the amplitude is half that, which is 0.1m.</p>
 
+                    <p class="answer-text">So the answer is B</p>
+
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 7</p>
+                <p class="question-text">For the Commonwealth Games in Glasgow in 2014, <br> fibre optic links were used to carry TV signals from Hampden Stadium to the media centre.</p>
                 
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/waves/Q7.jpg">
+                </div>
+
+                <p class="question-text">(a)(i) The fibre optical link consists of a bundle of glass optical fibres.<br><br>Name the effect used to transmit light through a glass optical fibre.</p>
+                <p class="question-text">(a)(ii) The optical fibre has a length of 1.6km.<br><br>Calculate the minimum time taken for a light signal to travel along the fibre.(Hint: You will need the data sheet)</p>
+                <p class="question-text">(b)(i) Volunteers directing spectators use mobile phones for communication.<br><br>A mobile phone uses microwaves of frequency 1200MHz.<br><br>Calculate the wavelength of these microwaves.</p>
+                <p class="question-text">(b)(ii) A second mobile phone operates with a frequency of 1800MHz.<br><br>The signals from each phone travel the same distance.<br><br>How does the time taken for the signals from the second phone compare with the signals from the first phone?</p>
+
+                <div class="answer-button-container">
+                    <a href="#question-7"><button onClick="showAnswer7(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-7" class="hidden">
+                    <hr class="break">
+                    <p class="answer-text">(a)(i) Total Internal Reflection</p>
+                    <p class="question-text">(a)(ii) In this question, we use:</p>
+
+                    <div class="frac-position">
+                        <p>v = &nbsp;<span class="frac"><sup> d</sup><span>&frasl;</span><sub>t</sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>t = &nbsp;<span class="frac"><sup> d</sup><span>&frasl;</span><sub>v</sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>t = &nbsp;<span class="frac"><sup> 1.6 x 10<sup>3</sup></sup><span>&frasl;</span><sub>2 x 10<sup>8</sup></sub></span></p>
+                    </div>
+
+                    <p class="question-text"><strong>Note: for v, the speed of light in glass is different to the speed of light in air,<br>So please take care when light/sound travels through another material! </strong></p>
+
+                    <p class="answer-text">t  = 8 x 10<sup>-6</sup>s</p>
+
+                    <p class="question-text">(b)(i) In this question, we use:</p>
+
+                    <p class="question-text">v = f&lambda;</p>
+
+                    <div class="frac-position">
+                        <p>&lambda; = &nbsp;<span class="frac"><sup> v</sup><span>&frasl;</span><sub>f</sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>&lambda; = &nbsp;<span class="frac"><sup> 3 x 10<sup>8</sup></sup><span>&frasl;</span><sub>1200 x 10<sup>6</sup></sub></span></p>
+                    </div>
+                    <p class="question-text">Note: We use the speed of light for v, as microwaves are part of the EM spectrum,<br> and all waves in the EM spectrum travel at the speed of light.</p>
+
+                    <p class="answer-text">&lambda; = 0.25m</p>
+
+                    <p class="question-text">(b)(ii) This is a trick question, <strong> as the frequency does not affect the speed with which the wave travels at.</strong><br><strong>They both travel at the speed of light, so:</strong></p>
+
+                    <p class="answer-text">The time is the same.</p>
+
                 </section>
             </div>
 
@@ -407,9 +363,13 @@
                 document.getElementById("question-6").classList.toggle('hidden');
             }
 
+            const showAnswer7 = () => {
+                document.getElementById("question-7").classList.toggle('hidden');
+            }
+
         </script>
 
-            <script>
+    <script>
         const body = document.body;
         let lastScroll = 0;
         const scrollOffset = 100;
