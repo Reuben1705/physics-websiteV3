@@ -36,6 +36,18 @@
     font-size: 18px;
 }
 
+.list-container{
+    text-align: center;
+}
+
+.content-list{
+    display: inline-block;
+    text-align: left;
+    font-family: "Nunito", arial;
+    font-size: 23px;
+    color: white;
+}
+
 #welcome-title,
 #marking-title,
 #about-title,
