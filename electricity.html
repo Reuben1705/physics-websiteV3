@@ -6,9 +6,6 @@
         <title>National 5 Physics</title>
 
         <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
-        <link rel="icon" href="images/favicon.ico.png">
-
-        <link rel="canonical" href="https://freenat5physics.com/electricity.html">
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,9 +63,360 @@
 
             <hr class="break">
             
-            <p class="course-content-title">Coming Soon!</p>
-            <p class="question-text">This website is still in early development, and I am working as fast as I can to add all the worked examples!</p>
-            <p class="question-text">For now though, use the other resources on the website. Sorry for any inconvenience caused!</p>
+            <div class="question-container">
+                <p class="question-title">Example 1</p>
+                <p class="question-text">The picture shows a typical mobile phone battery.</p>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/electricity/Q1.jpg">
+                </div>
+                <p class="question-text">The battery is completely discharged. A current of 800 mA is then supplied for 2 hours. <br> This charges the battery fully.</p>
+                
+                <p class="question-text">(i) Define the term <em>current</em>.</p>
+                <p class="question-text">(ii) Calculate the total charge supplied to the battery.</p>
+                <p class="question-text">(iii) When in use, the fully charged battery supplies a constant current of 50 mA. <br> Calculate the time taken for the battery to completely discharge.</p>
+
+                <div class="answer-button-container">
+                    <a href="#question-1"><button onClick="showAnswer1(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-1" class="hidden">
+                    <hr class="break">
+                    <p class="answer-text">(i) The current is defined as the rate of flow of charge.</p>
+
+                    <p class="question-text">(ii) We use the formula and remember to convert to seconds: </p>
+                    <p class="question-text">Q = It</p>
+                    <p class="question-text">Q = 800 x 10<sup>-3</sup> x 60 x 60 x 2 </p>
+                    <p class="answer-text">Q = 5760 C</p>
+
+
+                    <p class="question-text">(iii) We use the same formula and re-arrange for time:</p>
+                    <p class="question-text">Q = It</p>
+                    
+                    <div class="frac-position">
+                        <p>t = &nbsp;<span class="frac"><sup> Q</sup><span>&frasl;</span><sub>I</sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>t = &nbsp;<span class="frac"><sup> 5760</sup><span>&frasl;</span><sub>50 x 10<sup>-3</sup></sub></span></p>
+                    </div>
+                    
+
+                    <p class="answer-text">t = 115200s</p>
+                    <p class="question-text">Note: If you're ever unsure on what to do in a question, <strong>list all your data e.g Q = 5760 C</strong> and look at the formulas that relate them. </p>
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 2</p>
+                <p class="question-text">A student sets up the following circuit using a battery, two lamps, a switch and a resistor.</p>
+                
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/electricity/Q2.jpg">
+                </div>
+
+                <p class="question-text">(a) Each lamp is rated at 2.5 V, 0.50 A. <br> Calculate the resistance of <strong>one</strong> of the lamps when it is operating at the correct voltage.</p>
+                <p class="question-text">(b) When the switch is closed, will lamp L be brighter, dimmer or the same brightness as lamp M?<br> You <strong>must</strong> justify your answer.</p>
+
+                <div class="answer-button-container">
+                    <a href="#question-2"><button onClick="showAnswer2(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-2" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">(a) We use the formula:</p>
+
+                    <p class="question-text">V = IR</p>
+
+                    <div class="frac-position">
+                        <p>R = &nbsp;<span class="frac"><sup> V</sup><span>&frasl;</span><sub>I</sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>R = &nbsp;<span class="frac"><sup> 2.5</sup><span>&frasl;</span><sub>0.5</sub></span></p>
+                    </div>
+
+                    <p class="answer-text">R = 5 &ohm;</p>
+
+                    <p class="question-text">(b) To get full marks on this question, you must state the result and give a reason why. <br><br>Here, lamp M is in parallel with a resistor, and using our knowledge of circuits we know that <strong>current splits up across branches in a parallel circuits.</strong> <br>The current will then be the full value as it flows through lamp L in <strong>series.</strong></p>
+
+                    <p class="question-text">This means more current will flow through lamp L compared to lamp M, meaning lamp L will be brighter. So:</p>
+
+                    <p class="answer-text">Lamp L will be brighter, as more current will flow through lamp L compared to lamp M, as the current divides between lamp L and the resistor in parallel with it. </p>
+
+            
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 3</p>
+                <p class="question-text">A security floodlight is used to automatically illuminate an area outside a building when it gets dark. <br> The circuit for this system is shown.</p>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/electricity/Q3.jpg">
+                </div>
+
+                <p class="question-text">The resistance of the variable resistor is set to 16.6 k&ohm;.</p>
+                <p class="question-text">The _____ in this circuit has a switch on voltage of 0.7 V.</p>
+
+
+                <p class="question-text">(a)(i) Identify the circuit symbol used to automatically complete the circuit when a voltage of 0.7 V is across it.</p>
+                <p class="question-text">(a)(ii) Name another circuit component that could be used to automatically complete the circuit when a certain voltage is across it. </p>
+                <p class="question-text">(b)(i) The light level decreases to the point where the resistance of the light dependent resistor is 3.4 k&ohm;. <br> Show by calculation that the transistor is switched on at this light level.</p>
+                <p class="question-text">(b)(ii) Explain how the circuit operates to switch on the floodlight when the light levels fall below a certain value.   </p>
+                <p class="question-text">(b)(iii) The resistance of the variable resistor is now increased,<br> What effect does this have on the light level at which the floodlight is switched on?<br> You must justify your answer.   </p>
+                <p class="question-text">(c)(i) The floodlight is connected in a part of the circuit controlled by a relay. <br> The floodlight has a power rating of 575 W. <br> Calculate the current in the floodlight when it is switched on.</p>
+                <p class="question-text">(c)(ii) The following fuses are available for use with the floodlight.</p>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/electricity/Q3-fuse.jpg">
+                </div>
+
+                <p class="question-text">State which one of these fuses is the most appropriate for use with the floodlight.</p>
+
+                <div class="answer-button-container">
+                    <a href="#question-3"><button onClick="showAnswer3(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-3" class="hidden">
+                    <hr class="break">
+                    <p class="answer-text">(a)(i) The circuit symbol is a transistor</p>
+                    <p class="answer-text">(a)(ii) MOSFET</p>
+
+                    <p class="question-text">(b)(i) There are many ways to do this question. Personally, I would use: </p>
+
+                    <div class="frac-position">
+                        <p>&nbsp;<span class="frac"><sup>V<sub>1</sub></sup><span>&frasl;</span><sub>V<sub>TOTAL</sub></sub></span> = &nbsp;<span class="frac"><sup>R<sub>1</sub></sup><span>&frasl;</span><sub>R<sub>TOTAL</sub></sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>&nbsp;<span class="frac"><sup>V<sub>1</sub></sup><span>&frasl;</span><sub>5</sub></span> = &nbsp;<span class="frac"><sup>3.4 x 10<sup>3</sup></sup><span>&frasl;</span><sub>16.6 x x 10<sup>3</sup> + 3.4 x 10<sup>3</sup></sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>V = &nbsp;<span class="frac"><sup> 5 x 3.4 x 10<sup>3</sup></sup><span>&frasl;</span><sub>20 x 10<sup>3</sup></sub></span></p>
+                    </div>
+
+                    <p class="answer-text">V = 0.85 V</p>
+
+                    <p class="question-text">(b)(ii) This question is commonly observed to appear in the exam. <br>Make sure you know how to answer this question and how the circuit work.</p>
+                    <p class="question-text">A helpful way to remember how these circuits work is "LURD"(Light Up Resistance Down) for LDRs and "TURD"(Temperature Up Resistance Down) for thermistors.</p>
+                    <p class="answer-text">As the light level decreases, the resistance of the LDR increases, meaning the voltage across the LDR increases. The voltage increases until it reaches 0.7 V, with which the transistor turns on. The relay activates and completes the floodlight circuit.</p>
+
+                    <p class="question-text">(b)(iii) Since the resistance of the variable resistor is increased, there will be a greater voltage across it, and therefore the voltage across the LDR decreases.<br> This means for the same light level before the change of the variable resistor's resistance, the base voltage across the transistor will be lower. </p>
+                    <p class="question-text">The LDR will require a lower light level for the resistance to increase enough to increase the voltage for the transistor to switch on and activate the relay. So: </p>
+                    <p class="answer-text">Light level would be lower, as the resistance of the LDR must be greater than 3.4 k&ohm; for the transistor to switch on and activate the relay.  </p>
+
+                    <p class="question-text">(c)(i) From the diagram, we can see the floodlight has a voltage of 230V.<br> In the question, we are given the power rating of the floodlight.<br>Using the formula that relates all these values:</p>
+                    <p class="question-text">P = IV</p>
+
+                    <div class="frac-position">
+                        <p>I = &nbsp;<span class="frac"><sup> P</sup><span>&frasl;</span><sub>V</sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>I = &nbsp;<span class="frac"><sup> 575</sup><span>&frasl;</span><sub>230</sub></span></p>
+                    </div>
+
+                    <p class="answer-text">I = 2.5 A</p>
+
+                    <p class="question-text">(c)(ii) In this question, we would usually use the formula <strong> P = IV to calculate the current and select the first fuse that has a bigger value than the current </strong><br>Since we just calculated current in the previous question, we can go to the answer. </p>
+
+                    <p class="answer-text">The 3 A fuse is most appropriate. (Since 3 A > 2.5 A)</p>
+
+                    <p class="question-text">Note: other questions may not give fuses to choose from. In this case you choose between a 3 A or 13 A fuse.</p>
+
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 4</p>
+                <p class="question-text">A circuit is set up as shown.</p>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/electricity/Q4.jpg">
+                </div>
+
+                <p class="question-text">The reading on the ammeter is 3 A</p>
+                <p class="question-text">The reading on the voltmeter is 4 V.</p>
+                <p class="question-text">Calculate the current in resistor R<sub>2</sub> and the voltage across R<sub>2</sub></p>
+
+                <div class="answer-button-container">
+                    <a href="#question-4"><button onClick="showAnswer4(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-4" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">Using our knowledge of series circuits, we know that <strong>the current is the same and the voltage splits up between components.</strong> </p>
+                    
+                    <p class="question-text">This means the current in R<sub>2</sub> is 3 A.<br>To get the current, we take away the voltage across R<sub>1</sub> from the total voltage.</p>
+
+                    <p class="answer-text">Current in R<sub>2</sub> = 3 A <br>Voltage in R<sub>2</sub> = 12 - 4 = 8 V </p>
+
+                
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 5</p>
+                <p class="question-text">A mains electric fire has two heating elements which can be switched on and off separately. <br> The heating elements can be switched on to produce three different heat settings: LOW, MEDIUM and HIGH. <br> The fire also has an interior lamp which can be switched on to give a log-burning effect.</p>
+                <p class="question-text">The circuit diagram for the fire is shown.</p>
+                
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/electricity/Q5.jpg">
+                </div>
+                
+                <p class="question-text">(a) When switch S1 is closed, the lamp operates at its stated rating of 60W. <br> Calculate the current in the lamp.</p>
+                <p class="question-text">(b) Switch S1 is opened and switches S2 and S3 are closed.</p>
+                <p class="question-text">(i) Calculate the combined resistance of both heating elements.</p>
+                <p class="question-text">(ii) Calculate the total power developed in the heating elements when S2 and S3 are closed.</p>
+                <p class="question-text">(iii) State which switch or switches would have to be closed to produce the LOW heat setting.<br> You must justify your answer.</p>
+
+                <div class="answer-button-container">
+                    <a href="#question-5"><button onClick="showAnswer5(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-5" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">(a) We use the formula that relates power, current and voltage:</p>
+                    <p class="question-text">P = IV</p>
+
+                    <div class="frac-position">
+                        <p>I = &nbsp;<span class="frac"><sup> P</sup><span>&frasl;</span><sub>V</sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>I = &nbsp;<span class="frac"><sup> 60</sup><span>&frasl;</span><sub>230</sub></span></p>
+                    </div>
+
+                    <p class="answer-text">I = 0.26 A</p>
+
+
+                    <p class="question-text">(b)(i) To calculate the combined resistance, we use the formula for parallel circuits: </p>
+
+                    <div class="frac-position">
+                        <p>&nbsp;<span class="frac"><sup>1</sup><span>&frasl;</span><sub>R<sub>TOTAL</sub></sub></span> = &nbsp;<span class="frac"><sup>1</sup><span>&frasl;</span><sub>R<sub>1</sub></sub></span> + &nbsp;<span class="frac"><sup>1</sup><span>&frasl;</span><sub>R<sub>2</sub></sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>&nbsp;<span class="frac"><sup>1</sup><span>&frasl;</span><sub>R<sub>TOTAL</sub></sub></span> = &nbsp;<span class="frac"><sup>1</sup><span>&frasl;</span><sub>46</sub></span> + &nbsp;<span class="frac"><sup>1</sup><span>&frasl;</span><sub>92</sub></span></p>
+                    </div>
+
+                    
+                    <div class="frac-position">
+                        <p>&nbsp;<span class="frac"><sup>1</sup><span>&frasl;</span><sub>R<sub>TOTAL</sub></sub></span> = &nbsp;<span class="frac"><sup>3</sup><span>&frasl;</span><sub>92</sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>R<sub>TOTAL</sub> = &nbsp;<span class="frac"><sup> 90</sup><span>&frasl;</span><sub>3</sub></span></p>
+                    </div>
+
+                    <p class="answer-text">R<sub>TOTAL</sub> = 30.7 &ohm;</p>
+
+                    <p class="question-text">(b)(ii) We can calculate the total power in the heating elements in multiple ways.<br> The easiest way is to realise that we have the total resistance and the voltage (as the heating elements are in parallel with the battery, so it's just 230 V). <br> So we can use the formula. </p>
+
+                    <div class="frac-position">
+                        <p>P = &nbsp;<span class="frac"><sup> V<sup>2</sup></sup><span>&frasl;</span><sub>R</sub></span></p>
+                    </div>
+
+                    <div class="frac-position">
+                        <p>P = &nbsp;<span class="frac"><sup> (230)<sup>2</sup></sup><span>&frasl;</span><sub>30.7</sub></span></p>
+                    </div>
+
+                    
+                    <p class="answer-text">P = 1720 W</p>
+
+                    <p class="question-text">(b)(iii) Lets think this through. A low heat setting would mean we would need the heating with the <strong>biggest resistance</strong> as this would mean it would have less current flowing through it, and therefore produce less heat. </p>
+
+                    <p class="answer-text">S3 would need to be closed, as the heating element in that branch has the greatest resistance, meaning the lowest value of current will flow through it. </p>
+                    <p class="question-text">Note: It is correct to talk about how the greatest resistance will produce the lowest power output of the heating element.</p>
+
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 6</p>
+                <p class="question-text">Three identical resistors are connected with three ammeters to a d.c. supply as shown</p>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/electricity//Q6.jpg">
+                </div>
+
+                <p class="question-text">The reading on A<sub>3</sub> is 0.6 A.</p>
+                <p class="question-text">Which row in the table shows the readings on A<sub>1</sub> and A<sub>2</sub>?</p>
+                
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/electricity/Q6-ans.jpg">
+                </div>
+
+                <div class="answer-button-container">
+                    <a href="#question-6"><button onClick="showAnswer6(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-6" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">Lets use our knowledge of parallel and series circuits:</p>
+                    <p class="question-text">We know that in series, the current is the same. This means the 0.6 A will split between the two branches and then come together after the parallel branches. </p>
+                    <p class="question-text">Since the three resistors are identical, the current will split in a ratio. Since there is only one resistor in the branch of A<sub>1</sub>, the resistance will be smaller than that in the branch of A<sub>2</sub>. </p>
+                    <p class="question-text">This means the current in the top branch will be greater than that in the bottom branch. <br> Looking at our options in the table, the only row that make sense is C.</p>
+
+                    <p class="answer-text">So the answer is C</p>
+
+                </section>
+            </div>
+
+            <hr class="break">
+            
+            <div class="question-container">
+                <p class="question-title">Example 7</p>
+                <p class="question-text">An electric field exists around two point charges Q and R.</p>
+                <p class="question-text">The diagram shows the path taken by a charged particle as it travels through the field.</p>
+                <p class="question-text">The motion of the particle is as shown.</p>
+                
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/electricity/Q7.jpg">
+                </div>
+
+                <p class="question-text">Which row in the table identifies the charge on the particle, <br> the charge on Q and the charge on R?</p>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/electricity/Q7-ans.jpg">
+                </div>
+
+
+                <div class="answer-button-container">
+                    <a href="#question-7"><button onClick="showAnswer7(), change(this)" id="answer-button">Show Answer</button></a>
+                </div>
+
+                <section id="question-7" class="hidden">
+                    <hr class="break">
+                    <p class="question-text">In this question, we need to think through logically.</p>
+                    <p class="question-text">It can help to trace the path of the particle as if Q or R weren't there.</p>
+                    <p class="question-text">If Q wasn't there, the particle would continue in a straight line to the right. <br>However when Q is present, it <strong>attracts the particle</strong>, causing it to move downwards.</p>
+                    <p class="question-text">This means that Q and the particle are <strong>opposite charges</strong>, as opposite charges attract eachother.</p>
+                    <p class="question-text">If R wasn't there, the particle would continue in a straight line downwards.<br> However when R is present, it <strong> repels the particle</strong>, causing it to move to the right.</p>
+                    <p class="question-text">This means that R and the particle are <strong>the same charge</strong>, as like charges repel eachother.  </p>
+                    <p class="question-text">The only row in the table that makes sense is D.</p>
+
+                    <p class="answer-text">So the answer is D</p>
+
+                </section>
+            </div>
+
+            <hr class="break">
+
+            
+
 
             
 
@@ -111,6 +459,15 @@
             const showAnswer6 = () => {
                 document.getElementById("question-6").classList.toggle('hidden');
             }
+
+            const showAnswer7 = () => {
+                document.getElementById("question-7").classList.toggle('hidden');
+            }
+
+            const showAnswer8 = () => {
+                document.getElementById("question-8").classList.toggle('hidden');
+            }
+
 
         </script>
 
