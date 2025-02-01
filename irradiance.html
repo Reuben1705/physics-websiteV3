@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Higher Physics - Irradiance</title>
+
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="styles/home-styles/banner.css">
+        <link rel="stylesheet" href="styles/general/header.css">
+        <link rel="stylesheet" href="styles/dynamics/dynamics.css">
+    </head>
+
+    <body>
+
+        <div class="header">
+            <a class="header-links" href="index.html">Home</a>
+            <a class="header-links" href="index.html#topic-info-title">Topics</a>
+            <a class="header-links" href="index.html#resources-title">Resources</a>
+            <a class="header-links" href="index.html#past-papers-title">Past Papers</a>
+            <a class="header-links" href="index.html#support-title">Support Me</a>
+        </div>
+        
+        <!-- Banner Section -->
+        <div class="banner-container">
+            <img class="dynamics-banner-image" src="images/questions/irradiance/bulb-banner.jpg">
+        </div>
+
+        <div class="banner-items-container">
+            <p class="glow-text">Irradiance</p>
+        </div>
+
+        <div class="content-container">
+            
+            <hr class="break">
+
+            <div class="question-container">
+                <p class="question-title">Irradiance</p>
+                <p class="question-text">Irradiance is defined as the power per unit area incident on a surface</p>
+
+                <div class="frac-position">
+                    <p>I = &nbsp;<span class="frac"><sup> P</sup><span>&frasl;</span><sub>A</sub></span></p>
+                </div>
+
+                <p class="question-text">Where <br> -I is the irradiance of radiation measure in watts per square meter. <br> -	P is the power of the radiation incident on a surface measured in Watts.<br> -	A is the area of the surface measured in metres squared. </p>
+                
+                <p class="question-text">In this section, we consider light being emitted from a point source.</p>
+                <p class="question-text">A point source is a small source that emits radiation uniformly in all direction e.g. a small lamp. </p>
+                <hr class="break">
+                <p class="question-text">We can establish the relationship between the irradiance and the disrance from a point source of light with an experiment:</p>
+                <p class="question-text">1. Set up a clear lamp with a small filament as the point source over a black surface in a darkened room with a light sensor and ruler.</p>
+                <p class="question-text">2. Measure the ambient light level with the lamp off. You will need to subtract this reading from all light measurements so that your results give light due to the lamp only.</p>
+                <p class="question-text">3. Using the ruler as a reference, vary the distance, d, of the light sensor from the centre of the lamp.</p>
+                <p class="question-text">4. As the area of the light sensor is constant the light sensor reading can be taken as the irradiance.</p>
+                <p class="question-text">5. Plot irradiance against 1 / d<sup>2</sup></p>
+
+                <div class="question-image-container">
+                    <img class="question-image" src="images/questions/irradiance/Scatter.png">
+                </div>
+
+                <p class="question-text">When plotting irradiance against 1 / d<sup>2</sup>, we get a straight line through the origin. <br> This means irradiance is directly proportional to the inverse of the distance squared for a point source of light. <br> This is an inverse square law.</p>
+
+                <p class="question-text">These give us the equations:</p>
+
+                <div class="frac-position">
+                    <p>I = &nbsp;<span class="frac"><sup> k</sup><span>&frasl;</span><sub>d<sup>2</sup></sub></span></p>
+                </div>
+
+                <p class="question-text">I<sub>1</sub>d<sub>1</sub><sup>2</sup> = I<sub>2</sub>d<sub>2</sub><sup>2</sup> </p>
+
+                
+        </div>
+
+        
+
+        <script>
+
+            function change(button) {
+                if (button.innerText === "Show Answer") {
+                    button.innerText = "Hide Answer";
+                } else {
+                    button.innerText = "Show Answer";
+                }
+            }
+
+
+            const showAnswer1 = () => {
+                document.getElementById("question-1").classList.toggle('hidden');
+            }
+
+            const showAnswer2 = () => {
+                document.getElementById("question-2").classList.toggle('hidden');
+            }
+
+            const showAnswer3 = () => {
+                document.getElementById("question-3").classList.toggle('hidden');
+            }
+
+            const showAnswer4 = () => {
+                document.getElementById("question-4").classList.toggle('hidden');
+            }
+
+            const showAnswer5 = () => {
+                document.getElementById("question-5").classList.toggle('hidden');
+            }
+
+            const showAnswer6 = () => {
+                document.getElementById("question-6").classList.toggle('hidden');
+            }
+
+            const showAnswer7 = () => {
+                document.getElementById("question-7").classList.toggle('hidden');
+            }
+
+            const showAnswer8 = () => {
+                document.getElementById("question-8").classList.toggle('hidden');
+            }
+
+
+        </script>
+
+    <script>
+        const body = document.body;
+        let lastScroll = 0;
+        const scrollOffset = 100;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > scrollOffset) {
+                if (currentScroll > lastScroll && !body.classList.contains("scroll-down")) {
+                    body.classList.remove("scroll-up");
+                    body.classList.add("scroll-down");
+                } else if (currentScroll < lastScroll && body.classList.contains("scroll-down")) {
+                    body.classList.remove("scroll-down");
+                    body.classList.add("scroll-up");
+                }
+            } else {
+                body.classList.remove("scroll-up", "scroll-down");
+            }
+
+            lastScroll = currentScroll; 
+        });
+    </script>
+        
+
+    </body>
+</html>
